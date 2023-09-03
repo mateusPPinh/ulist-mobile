@@ -26,7 +26,7 @@ export function Header() {
        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
         <Logo source={logo} />
        </TouchableOpacity>
-        {route.name === 'Search' || route.name === 'details' ? (
+        {route.name === 'Search' || route.name === 'Details' ? (
           <Button onPress={() => navigation.navigate('Home')}>Voltar</Button>
         ) : (
           <InputContainer>
